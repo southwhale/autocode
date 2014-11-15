@@ -2,7 +2,7 @@
   "name": "autocode",
   "version": "0.1.2",
   "description": "代码自动生成器",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "make test"
   },
