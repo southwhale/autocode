@@ -1,6 +1,6 @@
 {
   "name": "autocode",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "代码自动生成器",
   "main": "main.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "autocode"
   ],
   "bin": {
-    "autocode": "./bin/cli"
+    "autocode": "./bin/autocode-cli"
   },
   "author": "SinLi",
   "license": "(BSD-2-Clause) MIT",
