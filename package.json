@@ -1,6 +1,6 @@
 {
   "name": "autocode",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "代码自动生成器",
   "main": "main.js",
   "scripts": {
