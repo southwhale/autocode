@@ -1,8 +1,0 @@
-{
-    "author": "liwei",
-    "email": "liwei47@baidu.com",
-    "tplDir": "./.autocode/tpl",
-    "destDir": {
-        "demoMod": "../biz12"
-    }
-}
