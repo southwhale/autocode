@@ -12,6 +12,14 @@ copy template code directory or file into your business module directory.
 4. 把你的代码模板放入上一步配置的代码模板目录里
 5. 运行: <blockquote>autocode yourModule yourCustomModuleName</blockquote>
 
+###Placeholder
+--------
+使用双花括号作为占位符: `{{yourVariable}}`
+
+###Filter
+占位符支持过滤器, 使用`|`作为过滤器开关: `{{yourVariable|yourFilter}}`  
+目前支持五种过滤器: __capitalize__、__xapitalize__、__camelize__、__toLowerCase__、__toUpperCase__
+
 ###Inner Variable
 --------
 autocode包含如下内置变量: __\_\_filepath\_\___、__\_\_filename\_\___、__\_\_date\_\___、__\_\_moduleprefix\_\___, 这些变量可用于代码模板内.  
