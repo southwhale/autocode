@@ -1,7 +1,7 @@
 {
   "name": "autocode",
-  "version": "0.2.2",
-  "description": "代码自动生成器",
+  "version": "0.2.3",
+  "description": "代码自动生成器,从代码模板生成业务代码",
   "main": "main.js",
   "scripts": {
     "test": "make test"
@@ -11,12 +11,15 @@
     "url": "https://github.com/iamweilee/autocode.git"
   },
   "keywords": [
-    "autocode"
+    "autocode",
+    "code template",
+    "generator",
+    "gen"
   ],
   "bin": {
     "autocode": "./bin/autocode-cli"
   },
-  "author": "SinLi",
+  "author": "RelativeLi",
   "license": "(BSD-2-Clause) MIT",
   "bugs": {
     "url": "https://github.com/iamweilee/autocode/issues"
