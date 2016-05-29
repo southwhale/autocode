@@ -6,11 +6,11 @@ copy template code directory or file into your business module directory.
 ###How to use?
 --------
 1. 全局安装: <blockquote>npm install -g 7hoo-autocode</blockquote>
-2. 进入你的项目工程根目录, 运行: <blockquote>7hoo-autocode init</blockquote>该方法会在根目录下自动生成__.autocode__文件夹及其子文件夹和文件
+2. 进入你的项目工程根目录, 运行: <blockquote>autocode init</blockquote>该方法会在根目录下自动生成__.autocode__文件夹及其子文件夹和文件
 3. 进入__.autocode__目录, 编辑__config.json__, 设置您的个人信息、您想自动生成的模块所存放的目标目录和模块名的对应关系  
     配置文件中默认使用__.autocode/tpl__作为您的代码模板目录, 您也通过修改这里的配置实现自定义自己的代码模板目录
 4. 把你的代码模板放入上一步配置的代码模板目录里
-5. 运行: <blockquote>7hoo-autocode yourModule yourCustomModuleName</blockquote>
+5. 运行: <blockquote>autocode yourModule yourCustomModuleName</blockquote>
 
 ###Placeholder
 --------
